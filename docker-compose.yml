@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  opengrok:
+    image: opengrok/docker:1.7.35
+    cpus: 4
+    volumes:
+      - "./src:/opengrok/src:ro"
+      - "./data:/opengrok/data"
+    environment:
+      NOMIRROR: ON
+    ports:
+      - "8080:8080"
+    restart: always
+
