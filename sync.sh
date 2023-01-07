@@ -8,7 +8,6 @@ lst=(
     https://github.com/microsoft/GSL.git
     https://github.com/brendangregg/perf-tools.git
     https://github.com/taskflow/taskflow.git
-    https://github.com/iovisor/bpf-docs.git
     https://github.com/iovisor/bcc.git
     https://github.com/iovisor/bpftrace.git
     https://github.com/libbpf/libbpf.git
