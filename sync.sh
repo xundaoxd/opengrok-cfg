@@ -15,6 +15,7 @@ lst=(
     https://github.com/libbpf/bpftool.git
     https://github.com/archcraft-os/archcraft.git
     https://github.com/NVIDIA/cutlass.git
+    https://github.com/pytorch/pytorch.git
     https://github.com/pytorch/vision.git
     https://git.suckless.org/dwm
     https://gitlab.archlinux.org/archlinux/mkinitcpio/mkinitcpio.git
