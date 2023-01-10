@@ -2,9 +2,9 @@
 
 prefix="src"
 lst=(
-    # https://mirrors.tuna.tsinghua.edu.cn/git/linux.git
-    # https://mirrors.tuna.tsinghua.edu.cn/git/llvm-project.git
-    # https://mirrors.tuna.tsinghua.edu.cn/git/glibc.git
+    https://mirrors.tuna.tsinghua.edu.cn/git/linux.git
+    https://mirrors.tuna.tsinghua.edu.cn/git/llvm-project.git
+    https://mirrors.tuna.tsinghua.edu.cn/git/glibc.git
     https://github.com/microsoft/GSL.git
     https://github.com/brendangregg/perf-tools.git
     https://github.com/taskflow/taskflow.git
