@@ -3,7 +3,6 @@
 prefix="src"
 lst=(
     https://mirrors.tuna.tsinghua.edu.cn/git/linux.git
-    https://mirrors.tuna.tsinghua.edu.cn/git/llvm-project.git
     https://mirrors.tuna.tsinghua.edu.cn/git/glibc.git
     https://github.com/microsoft/GSL.git
     https://github.com/brendangregg/perf-tools.git
@@ -18,7 +17,9 @@ lst=(
     https://github.com/pytorch/vision.git
     https://git.suckless.org/dwm
     https://gitlab.archlinux.org/archlinux/mkinitcpio/mkinitcpio.git
+    https://mirrors.tuna.tsinghua.edu.cn/git/llvm-project.git
     https://github.com/llvm/torch-mlir.git
+    https://github.com/plaidml/tpp-mlir.git
     https://github.com/NVIDIA/open-gpu-kernel-modules.git
     https://github.com/NVIDIA/tensorflow.git
     https://github.com/NVIDIA/TensorRT.git
