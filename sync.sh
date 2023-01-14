@@ -28,6 +28,7 @@ lst=(
     https://github.com/NVIDIA/cutlass.git
     https://github.com/NVIDIA/thrust.git
     https://github.com/NVIDIA/cub.git
+    https://github.com/KhronosGroup/Vulkan-Samples.git
 )
 
 do_sync() {
