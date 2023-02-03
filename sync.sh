@@ -33,6 +33,7 @@ lst=(
     https://github.com/pytorch/pytorch.git
     https://github.com/pytorch/vision.git
     https://git.suckless.org/dwm
+    https://github.com/lakinduakash/linux-wifi-hotspot.git
 )
 
 do_sync() {
