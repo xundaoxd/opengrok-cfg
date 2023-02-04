@@ -12,6 +12,7 @@ lst=(
     https://github.com/libbpf/libbpf-bootstrap.git
     https://github.com/libbpf/bpftool.git
     https://github.com/brendangregg/perf-tools.git
+    https://github.com/google/glog.git
 
     https://mirrors.tuna.tsinghua.edu.cn/git/llvm-project.git
     https://github.com/llvm/torch-mlir.git
