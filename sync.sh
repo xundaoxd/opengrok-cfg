@@ -13,6 +13,8 @@ lst=(
     https://github.com/libbpf/bpftool.git
     https://github.com/brendangregg/perf-tools.git
     https://github.com/google/glog.git
+    https://git.suckless.org/dwm
+    https://github.com/lakinduakash/linux-wifi-hotspot.git
 
     https://mirrors.tuna.tsinghua.edu.cn/git/llvm-project.git
     https://github.com/llvm/torch-mlir.git
@@ -33,8 +35,8 @@ lst=(
     https://github.com/archcraft-os/archcraft.git
     https://github.com/pytorch/pytorch.git
     https://github.com/pytorch/vision.git
-    https://git.suckless.org/dwm
-    https://github.com/lakinduakash/linux-wifi-hotspot.git
+    https://github.com/onnx/onnx.git
+    https://github.com/microsoft/onnxruntime.git
 )
 
 do_sync() {
