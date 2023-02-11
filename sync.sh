@@ -15,6 +15,8 @@ lst=(
     https://github.com/google/glog.git
     https://git.suckless.org/dwm
     https://github.com/lakinduakash/linux-wifi-hotspot.git
+    https://github.com/microsoft/GSL.git
+    https://github.com/archcraft-os/archcraft.git
 
     https://mirrors.tuna.tsinghua.edu.cn/git/llvm-project.git
     https://github.com/llvm/torch-mlir.git
@@ -29,10 +31,11 @@ lst=(
     https://github.com/NVIDIA/thrust.git
     https://github.com/NVIDIA/cub.git
     https://github.com/KhronosGroup/Vulkan-Samples.git
+    https://github.com/ROCm-Developer-Tools/HIP.git
 
-    https://github.com/microsoft/GSL.git
+    https://github.com/hughperkins/VeriGPU.git
+
     https://github.com/taskflow/taskflow.git
-    https://github.com/archcraft-os/archcraft.git
     https://github.com/pytorch/pytorch.git
     https://github.com/pytorch/vision.git
     https://github.com/onnx/onnx.git
