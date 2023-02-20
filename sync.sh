@@ -17,6 +17,7 @@ lst=(
     https://github.com/lakinduakash/linux-wifi-hotspot.git
     https://github.com/microsoft/GSL.git
     https://github.com/archcraft-os/archcraft.git
+    https://github.com/jemalloc/jemalloc.git
 
     https://mirrors.tuna.tsinghua.edu.cn/git/llvm-project.git
     https://github.com/llvm/torch-mlir.git
