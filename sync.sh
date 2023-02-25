@@ -23,6 +23,8 @@ lst=(
     https://github.com/llvm/torch-mlir.git
     https://github.com/plaidml/tpp-mlir.git
 
+    https://github.com/hughperkins/VeriGPU.git
+
     https://github.com/NVIDIA/open-gpu-kernel-modules.git
     https://github.com/NVIDIA/tensorflow.git
     https://github.com/NVIDIA/TensorRT.git
@@ -34,13 +36,13 @@ lst=(
     https://github.com/KhronosGroup/Vulkan-Samples.git
     https://github.com/ROCm-Developer-Tools/HIP.git
 
-    https://github.com/hughperkins/VeriGPU.git
-
     https://github.com/taskflow/taskflow.git
     https://github.com/pytorch/pytorch.git
     https://github.com/pytorch/vision.git
     https://github.com/onnx/onnx.git
     https://github.com/microsoft/onnxruntime.git
+    https://github.com/MegEngine/MegEngine.git
+    https://github.com/openppl-public/ppl.nn.git
 )
 
 do_sync() {
