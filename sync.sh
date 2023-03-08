@@ -43,6 +43,7 @@ lst=(
     https://github.com/microsoft/onnxruntime.git
     https://github.com/MegEngine/MegEngine.git
     https://github.com/openppl-public/ppl.nn.git
+    https://github.com/alibaba/BladeDISC.git
 )
 
 do_sync() {
