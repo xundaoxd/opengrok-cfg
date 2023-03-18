@@ -48,16 +48,16 @@ lst=(
 
 do_sync() {
     url=$1
-    repo=`echo $url | cut -d'/' -f3-`
-    if [ -d ${prefix}/$repo ]; then
-        (cd ${prefix}/$repo && git pull)
+    repo=$(echo "$url" | cut -d'/' -f3-)
+    if [ -d ${prefix}/"$repo" ]; then
+        (cd ${prefix}/"$repo" && git pull)
     else
-        git clone --depth 1 $url ${prefix}/$repo
+        git clone --depth 1 "$url" ${prefix}/"$repo"
     fi
 }
 main() {
     for u in "${lst[@]}"; do
-        do_sync $u
+        do_sync "$u"
     done
 }
 
