@@ -39,6 +39,7 @@ lst=(
     https://github.com/taskflow/taskflow.git
     https://github.com/pytorch/pytorch.git
     https://github.com/pytorch/vision.git
+    https://github.com/rusty1s/pytorch_sparse.git
     https://github.com/onnx/onnx.git
     https://github.com/microsoft/onnxruntime.git
     https://github.com/MegEngine/MegEngine.git
