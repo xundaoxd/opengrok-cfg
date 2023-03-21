@@ -45,6 +45,7 @@ lst=(
     https://github.com/MegEngine/MegEngine.git
     https://github.com/openppl-public/ppl.nn.git
     https://github.com/alibaba/BladeDISC.git
+    https://github.com/microsoft/onnxruntime-inference-examples.git
 )
 
 do_sync() {
