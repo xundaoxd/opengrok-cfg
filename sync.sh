@@ -22,6 +22,7 @@ lst=(
     https://mirrors.tuna.tsinghua.edu.cn/git/llvm-project.git
     https://github.com/llvm/torch-mlir.git
     https://github.com/plaidml/tpp-mlir.git
+    https://github.com/onnx/onnx-mlir.git
 
     https://github.com/hughperkins/VeriGPU.git
 
