@@ -50,14 +50,14 @@ lst=(
 )
 
 do_sync() {
-    link=$1
-    url=$(echo "$link" | cut -d@ -f1)
-    tag=$(echo "$link" | cut -d@ -f2)
+    IFS='@' read -r -a link <<< "$1"
+    url=${link[0]}
+    tag=${link[1]}
     repo=$(echo "$url" | cut -d'/' -f3-)
     if [ -d ${prefix}/"$repo" ]; then
         (cd ${prefix}/"$repo" && git pull --tags)
     else
-        git clone --depth 1 "$url" ${prefix}/"$repo"
+        git clone "$url" ${prefix}/"$repo"
     fi
     [[ -n "$tag" ]] && (cd $prefix/"$repo" && git checkout "$tag")
 }
