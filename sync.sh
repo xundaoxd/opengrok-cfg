@@ -19,7 +19,7 @@ lst=(
     https://github.com/archcraft-os/archcraft.git
     https://github.com/jemalloc/jemalloc.git
 
-    https://mirrors.tuna.tsinghua.edu.cn/git/llvm-project.git
+    https://mirrors.tuna.tsinghua.edu.cn/git/llvm-project.git@llvmorg-15.0.7
     https://github.com/llvm/torch-mlir.git
     https://github.com/plaidml/tpp-mlir.git
     https://github.com/onnx/onnx-mlir.git
@@ -50,13 +50,16 @@ lst=(
 )
 
 do_sync() {
-    url=$1
+    link=$1
+    url=$(echo "$link" | cut -d@ -f1)
+    tag=$(echo "$link" | cut -d@ -f2)
     repo=$(echo "$url" | cut -d'/' -f3-)
     if [ -d ${prefix}/"$repo" ]; then
-        (cd ${prefix}/"$repo" && git pull)
+        (cd ${prefix}/"$repo" && git pull --tags)
     else
         git clone --depth 1 "$url" ${prefix}/"$repo"
     fi
+    [[ -n "$tag" ]] && (cd $prefix/"$repo" && git checkout "$tag")
 }
 main() {
     for u in "${lst[@]}"; do
