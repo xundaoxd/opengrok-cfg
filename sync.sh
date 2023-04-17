@@ -47,6 +47,7 @@ lst=(
     https://github.com/openppl-public/ppl.nn.git
     https://github.com/alibaba/BladeDISC.git
     https://github.com/microsoft/onnxruntime-inference-examples.git
+    https://github.com/huggingface/transformers.git
 )
 
 do_sync() {
