@@ -18,6 +18,7 @@ lst=(
     https://github.com/microsoft/GSL.git
     https://github.com/archcraft-os/archcraft.git
     https://github.com/jemalloc/jemalloc.git
+    https://github.com/COVESA/vsomeip.git
 
     https://mirrors.tuna.tsinghua.edu.cn/git/llvm-project.git@llvmorg-15.0.7
     https://github.com/llvm/torch-mlir.git
