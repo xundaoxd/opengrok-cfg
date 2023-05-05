@@ -6,6 +6,7 @@ lst=(
     https://mirrors.tuna.tsinghua.edu.cn/git/glibc.git
     https://gitlab.archlinux.org/archlinux/mkinitcpio/mkinitcpio.git
     https://gitlab.archlinux.org/archlinux/mkinitcpio/mkinitcpio-archiso.git
+    https://github.com/archlinux/archiso.git
     https://github.com/iovisor/bcc.git
     https://github.com/iovisor/bpftrace.git
     https://github.com/libbpf/libbpf.git
@@ -16,7 +17,6 @@ lst=(
     https://git.suckless.org/dwm
     https://github.com/lakinduakash/linux-wifi-hotspot.git
     https://github.com/microsoft/GSL.git
-    https://github.com/archcraft-os/archcraft.git
     https://github.com/jemalloc/jemalloc.git
     https://github.com/COVESA/vsomeip.git
 
