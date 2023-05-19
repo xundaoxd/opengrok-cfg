@@ -14,8 +14,6 @@ lst=(
     https://github.com/libbpf/bpftool.git
     https://github.com/brendangregg/perf-tools.git
     https://github.com/google/glog.git
-    https://git.suckless.org/dwm
-    https://github.com/lakinduakash/linux-wifi-hotspot.git
     https://github.com/microsoft/GSL.git
     https://github.com/jemalloc/jemalloc.git
     https://github.com/COVESA/vsomeip.git
