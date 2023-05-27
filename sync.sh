@@ -36,6 +36,7 @@ lst=(
     https://github.com/KhronosGroup/Vulkan-Samples.git
     https://github.com/ROCm-Developer-Tools/HIP.git
 
+    https://github.com/geohot/tinygrad.git
     https://github.com/taskflow/taskflow.git
     https://github.com/pytorch/pytorch.git
     https://github.com/pytorch/vision.git
