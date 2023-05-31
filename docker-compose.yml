@@ -5,6 +5,7 @@ services:
     image: opengrok/docker:1.7.35
     environment:
       NOMIRROR: ON
+      SYNC_PERIOD_MINUTES: 0
     ports:
       - "8080:8080"
     volumes:
