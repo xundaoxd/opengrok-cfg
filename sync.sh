@@ -2,13 +2,13 @@
 
 prefix="src"
 lst=(
-    https://mirrors.tuna.tsinghua.edu.cn/git/linux.git
-    https://mirrors.tuna.tsinghua.edu.cn/git/glibc.git
+    https://github.com/torvalds/linux.git
     https://gitlab.archlinux.org/archlinux/mkinitcpio/mkinitcpio.git
     https://gitlab.archlinux.org/archlinux/mkinitcpio/mkinitcpio-archiso.git
     https://github.com/archlinux/archiso.git
     https://github.com/iovisor/bcc.git
     https://github.com/iovisor/bpftrace.git
+    https://github.com/brendangregg/perf-tools.git
     https://github.com/libbpf/libbpf.git
     https://github.com/libbpf/libbpf-bootstrap.git
     https://github.com/libbpf/bpftool.git
@@ -18,7 +18,7 @@ lst=(
     https://github.com/jemalloc/jemalloc.git
     https://github.com/COVESA/vsomeip.git
 
-    https://mirrors.tuna.tsinghua.edu.cn/git/llvm-project.git@llvmorg-15.0.7
+    https://github.com/llvm/llvm-project.git@llvmorg-15.0.7
     https://github.com/llvm/torch-mlir.git
     https://github.com/plaidml/tpp-mlir.git
     https://github.com/onnx/onnx-mlir.git
