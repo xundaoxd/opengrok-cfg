@@ -2,7 +2,7 @@
 
 prefix="src"
 lst=(
-    https://github.com/torvalds/linux.git
+    https://github.com/torvalds/linux.git@v5.15
     https://gitlab.archlinux.org/archlinux/mkinitcpio/mkinitcpio.git
     https://gitlab.archlinux.org/archlinux/mkinitcpio/mkinitcpio-archiso.git
     https://github.com/archlinux/archiso.git
