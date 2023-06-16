@@ -51,16 +51,17 @@ lst=(
 )
 
 do_sync() {
+    args=""
     IFS='@' read -r -a link <<< "$1"
+
+    tag="${link[1]}"
+    [[ -n "$tag" ]] && args+=" -b $tag"
+
     url=${link[0]}
-    tag=${link[1]}
-    repo=$(echo "$url" | cut -d'/' -f3-)
-    if [ -d ${prefix}/"$repo" ]; then
-        (cd ${prefix}/"$repo" && git pull --tags)
-    else
-        git clone "$url" ${prefix}/"$repo"
-    fi
-    [[ -n "$tag" ]] && (cd $prefix/"$repo" && git checkout "$tag")
+    repo=$(echo "${url//\//-}" | cut -d'-' -f3-)
+    args+=" $url $prefix/$repo"
+
+    [[ ! -d "${prefix}/$repo" ]] && git clone $args
 }
 main() {
     for u in "${lst[@]}"; do
