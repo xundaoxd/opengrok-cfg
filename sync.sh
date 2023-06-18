@@ -12,7 +12,6 @@ lst=(
     https://github.com/libbpf/libbpf.git
     https://github.com/libbpf/libbpf-bootstrap.git
     https://github.com/libbpf/bpftool.git
-    https://github.com/brendangregg/perf-tools.git
     https://github.com/google/glog.git
     https://github.com/microsoft/GSL.git
     https://github.com/jemalloc/jemalloc.git
@@ -58,9 +57,10 @@ do_sync() {
     [[ -n "$tag" ]] && args+=" -b $tag"
 
     url=${link[0]}
-    repo=$(echo "${url//\//-}" | cut -d'-' -f3-)
+    repo=$(echo "$url" | cut -d'/' -f4- | sed 's/\//-/g')
     args+=" $url $prefix/$repo"
 
+    [[ -d "${prefix}/$repo" ]] && (cd "$prefix/$repo" && git pull)
     [[ ! -d "${prefix}/$repo" ]] && git clone $args
 }
 main() {
