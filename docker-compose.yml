@@ -6,6 +6,7 @@ services:
     environment:
       NOMIRROR: ON
       SYNC_PERIOD_MINUTES: 0
+      WORKERS: 4
     ports:
       - "8080:8080"
     volumes:
@@ -15,6 +16,6 @@ services:
       resources:
         limits:
           cpus: "2"
-          memory: "4096M"
+          memory: "8192M"
     restart: always
 
