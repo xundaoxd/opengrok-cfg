@@ -12,6 +12,7 @@ lst=(
     https://github.com/libbpf/libbpf.git
     https://github.com/libbpf/libbpf-bootstrap.git
     https://github.com/libbpf/bpftool.git
+    https://github.com/libbpf/blazesym.git
     https://github.com/google/glog.git
     https://github.com/microsoft/GSL.git
     https://github.com/jemalloc/jemalloc.git
