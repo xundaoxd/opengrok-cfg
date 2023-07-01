@@ -62,7 +62,7 @@ do_sync() {
     repo=$(echo "$url" | cut -d'/' -f4- | sed 's/\//-/g')
     args+=" $url $prefix/$repo"
 
-    [[ -d "${prefix}/$repo" ]] && (cd "$prefix/$repo" && git pull)
+    [[ -d "${prefix}/$repo" ]] && (cd "$prefix/$repo" && git pull --rebase)
     [[ ! -d "${prefix}/$repo" ]] && git clone $args
 }
 main() {
