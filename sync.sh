@@ -14,6 +14,7 @@ lst=(
     https://github.com/libbpf/bpftool.git
     https://github.com/libbpf/blazesym.git
     https://github.com/google/glog.git
+    https://github.com/gperftools/gperftools.git
     https://github.com/microsoft/GSL.git
     https://github.com/jemalloc/jemalloc.git
     https://github.com/COVESA/vsomeip.git
